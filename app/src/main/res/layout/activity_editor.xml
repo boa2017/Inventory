@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/scrollview"
+    tools:context="com.example.android.inventory.EditorActivity">
+
+    <LinearLayout style="@style/linear_layout_1">
+
+        <TextView
+            android:id="@+id/item_name_title"
+            style="@style/item_name_title" />
+
+        <EditText
+            android:id="@+id/item_name_edit"
+            style="@style/item_name_edit" />
+
+        <TextView
+            android:id="@+id/price_title"
+            style="@style/price_title" />
+
+        <EditText
+            android:id="@+id/price_edit"
+            style="@style/price_edit" />
+
+        <TextView
+            android:id="@+id/quantity_title"
+            style="@style/quantity_title" />
+
+        <LinearLayout style="@style/linear_layout_2">
+
+            <ImageButton
+                android:id="@+id/decrease"
+                style="@style/button_decrease" />
+
+            <EditText
+                android:id="@+id/quantity_edit"
+                style="@style/quantity_edit" />
+
+            <ImageButton
+                android:id="@+id/increase"
+                style="@style/button_increase" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/supplier_name_title"
+            style="@style/supplier_name_title" />
+
+        <LinearLayout style="@style/linear_layout_2">
+
+            <Spinner
+                android:id="@+id/spinner_supplier"
+                style="@style/spinner" />
+
+        </LinearLayout>
+
+        <RelativeLayout style="@style/relative_layout2">
+
+            <Button
+                android:id="@+id/get_picture"
+                style="@style/get_picture_button" />
+
+            <Button
+                android:id="@+id/order_items"
+                style="@style/order_button" />
+
+            <ImageView
+                android:id="@+id/image_view"
+                style="@style/image_view" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

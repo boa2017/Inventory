@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/relative_layout"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/empty_view"
+        style="@style/empty_view">
+
+        <ImageView
+            android:id="@+id/cover_image"
+            style="@style/cover_image" />
+
+        <TextView
+            android:id="@+id/empty_view_text"
+            style="@style/empty_view_text" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_view"
+        style="@style/list_view">
+
+    </ListView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floating_button"
+        style="@style/floating_button" />
+
+</RelativeLayout>

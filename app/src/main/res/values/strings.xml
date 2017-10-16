@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Stationery Inventory</string>
+    <string name="new_item">Add new item</string>
+    <string name="supplier_name_title">Supplier Name</string>
+    <string name="quantity_title">Quantity</string>
+    <string name="price_title">Price</string>
+    <string name="item_name_title">Item Name</string>
+    <string name="save">Save item</string>
+    <string name="editor_activity_title_edit_item">Edit item</string>
+    <string name="menu_delete_item">Delete item</string>
+    <string name="menu_delete_all">Delete all info</string>
+    <string name="delete_message">Are you sure you want to delete your order?</string>
+    <string name="delete">Accept</string>
+    <string name="cancel">Cancel</string>
+    <string name="empty_list_hint">Add some items to your inventory</string>
+    <string name="action_insert_dummy_data">Add Dummy Data</string>
+    <string name="change_picture">Change picture</string>
+    <string name="unsaved_changes_dialog_msg">Are you sure to continue without saving last changes?</string>
+    <string name="discard">Discard changes</string>
+    <string name="keep_editing">Keep edition</string>
+    <string name="get_picture">Choose picture</string>
+    <string name="supplier_unknown">Unknown</string>
+    <string name="supplier_Milan">Milan</string>
+    <string name="supplier_Bic">Bic</string>
+    <string name="supplier_Staedtler">Staedtler</string>
+    <string name="incorrect_entry">Please, fill all the details</string>
+    <string name="successful_insert">Item saved</string>
+    <string name="failure_insert">Insert failed</string>
+    <string name="successful_update">Item updated</string>
+    <string name="failed_update">Item not updated</string>
+    <string name="delete_item_successful">Item deleted</string>
+    <string name="delete_item_failed">Error with deleting item</string>
+    <string name="goods_request">Goods request</string>
+    <string name="confirm_set_message">Are you sure to delete all?</string>
+    <string name="confirm_set_positive">Delete</string>
+    <string name="toast_onclick">Items deleted</string>
+</resources>

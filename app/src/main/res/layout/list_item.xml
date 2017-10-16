@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linear_layout_3">
+
+
+    <ImageView
+        android:id="@+id/image_view_list"
+        style="@style/image_view_list" />
+
+    <View
+        android:id="@+id/view2"
+        style="@style/view2" />
+
+    <TextView
+        android:id="@+id/item_name"
+        style="@style/item_name" />
+
+    <TextView
+        android:id="@+id/supplier"
+        style="@style/supplier_list" />
+
+    <TextView
+        android:id="@+id/quantity"
+        style="@style/quantity" />
+
+    <TextView
+        android:id="@+id/price"
+        style="@style/price" />
+
+    <TextView
+        android:id="@+id/sold"
+        style="@style/sold" />
+
+    <ImageView
+        android:id="@+id/button_sell"
+        style="@style/button_sell" />
+
+
+</RelativeLayout>
+
